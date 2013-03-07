@@ -19,8 +19,8 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: sampleapp_production
+  database: appname_test
   pool: 5
   timeout: 5000
-  username: ingemar
-  password: nekobuta
+  username: <username>
+  password:
