@@ -1,9 +1,17 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
+# CSS
 gem 'bootstrap-sass', '2.1' 
+# An easy way to keep your users’ passwords secure
 gem 'bcrypt-ruby', '3.0.1'
+# PostgreSQL
 gem 'pg', '0.12.2'
+# Create sample users with semi-realistic names and email addresse
+gem 'faker', '1.0.1'
+# Pagination
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
